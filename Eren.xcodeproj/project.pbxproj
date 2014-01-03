@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4495BA4018776CA600D306A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA3F18776CA600D306A2 /* Foundation.framework */; };
+		4495BA4218776CA600D306A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA4118776CA600D306A2 /* CoreGraphics.framework */; };
+		4495BA4418776CA600D306A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA4318776CA600D306A2 /* UIKit.framework */; };
+		4495BA4618776CA600D306A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA4518776CA600D306A2 /* CoreData.framework */; };
+		4495BA4C18776CA600D306A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4495BA4A18776CA600D306A2 /* InfoPlist.strings */; };
+		4495BA4E18776CA600D306A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495BA4D18776CA600D306A2 /* main.m */; };
+		4495BA5218776CA600D306A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495BA5118776CA600D306A2 /* AppDelegate.m */; };
+		4495BA5518776CA600D306A2 /* Eren.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4495BA5318776CA600D306A2 /* Eren.xcdatamodeld */; };
+		4495BA5718776CA600D306A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4495BA5618776CA600D306A2 /* Images.xcassets */; };
+		4495BA5E18776CA600D306A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA5D18776CA600D306A2 /* XCTest.framework */; };
+		4495BA5F18776CA600D306A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA3F18776CA600D306A2 /* Foundation.framework */; };
+		4495BA6018776CA600D306A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA4318776CA600D306A2 /* UIKit.framework */; };
+		4495BA6118776CA600D306A2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4495BA4518776CA600D306A2 /* CoreData.framework */; };
+		4495BA6918776CA600D306A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4495BA6718776CA600D306A2 /* InfoPlist.strings */; };
+		4495BA6B18776CA600D306A2 /* ErenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4495BA6A18776CA600D306A2 /* ErenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4495BA6218776CA600D306A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4495BA3418776CA600D306A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4495BA3B18776CA600D306A2;
+			remoteInfo = Eren;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4495BA3C18776CA600D306A2 /* Eren.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eren.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4495BA3F18776CA600D306A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4495BA4118776CA600D306A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4495BA4318776CA600D306A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4495BA4518776CA600D306A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4495BA4918776CA600D306A2 /* Eren-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Eren-Info.plist"; sourceTree = "<group>"; };
+		4495BA4B18776CA600D306A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4495BA4D18776CA600D306A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4495BA4F18776CA600D306A2 /* Eren-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eren-Prefix.pch"; sourceTree = "<group>"; };
+		4495BA5018776CA600D306A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4495BA5118776CA600D306A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4495BA5418776CA600D306A2 /* Eren.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eren.xcdatamodel; sourceTree = "<group>"; };
+		4495BA5618776CA600D306A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4495BA5C18776CA600D306A2 /* ErenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4495BA5D18776CA600D306A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4495BA6618776CA600D306A2 /* ErenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ErenTests-Info.plist"; sourceTree = "<group>"; };
+		4495BA6818776CA600D306A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4495BA6A18776CA600D306A2 /* ErenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4495BA3918776CA600D306A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA4218776CA600D306A2 /* CoreGraphics.framework in Frameworks */,
+				4495BA4618776CA600D306A2 /* CoreData.framework in Frameworks */,
+				4495BA4418776CA600D306A2 /* UIKit.framework in Frameworks */,
+				4495BA4018776CA600D306A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4495BA5918776CA600D306A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA5E18776CA600D306A2 /* XCTest.framework in Frameworks */,
+				4495BA6118776CA600D306A2 /* CoreData.framework in Frameworks */,
+				4495BA6018776CA600D306A2 /* UIKit.framework in Frameworks */,
+				4495BA5F18776CA600D306A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4495BA3318776CA600D306A2 = {
+			isa = PBXGroup;
+			children = (
+				4495BA4718776CA600D306A2 /* Eren */,
+				4495BA6418776CA600D306A2 /* ErenTests */,
+				4495BA3E18776CA600D306A2 /* Frameworks */,
+				4495BA3D18776CA600D306A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4495BA3D18776CA600D306A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA3C18776CA600D306A2 /* Eren.app */,
+				4495BA5C18776CA600D306A2 /* ErenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4495BA3E18776CA600D306A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA3F18776CA600D306A2 /* Foundation.framework */,
+				4495BA4118776CA600D306A2 /* CoreGraphics.framework */,
+				4495BA4318776CA600D306A2 /* UIKit.framework */,
+				4495BA4518776CA600D306A2 /* CoreData.framework */,
+				4495BA5D18776CA600D306A2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4495BA4718776CA600D306A2 /* Eren */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA5018776CA600D306A2 /* AppDelegate.h */,
+				4495BA5118776CA600D306A2 /* AppDelegate.m */,
+				4495BA5618776CA600D306A2 /* Images.xcassets */,
+				4495BA5318776CA600D306A2 /* Eren.xcdatamodeld */,
+				4495BA4818776CA600D306A2 /* Supporting Files */,
+			);
+			path = Eren;
+			sourceTree = "<group>";
+		};
+		4495BA4818776CA600D306A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA4918776CA600D306A2 /* Eren-Info.plist */,
+				4495BA4A18776CA600D306A2 /* InfoPlist.strings */,
+				4495BA4D18776CA600D306A2 /* main.m */,
+				4495BA4F18776CA600D306A2 /* Eren-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4495BA6418776CA600D306A2 /* ErenTests */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA6A18776CA600D306A2 /* ErenTests.m */,
+				4495BA6518776CA600D306A2 /* Supporting Files */,
+			);
+			path = ErenTests;
+			sourceTree = "<group>";
+		};
+		4495BA6518776CA600D306A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4495BA6618776CA600D306A2 /* ErenTests-Info.plist */,
+				4495BA6718776CA600D306A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4495BA3B18776CA600D306A2 /* Eren */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4495BA6E18776CA600D306A2 /* Build configuration list for PBXNativeTarget "Eren" */;
+			buildPhases = (
+				4495BA3818776CA600D306A2 /* Sources */,
+				4495BA3918776CA600D306A2 /* Frameworks */,
+				4495BA3A18776CA600D306A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eren;
+			productName = Eren;
+			productReference = 4495BA3C18776CA600D306A2 /* Eren.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4495BA5B18776CA600D306A2 /* ErenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4495BA7118776CA600D306A2 /* Build configuration list for PBXNativeTarget "ErenTests" */;
+			buildPhases = (
+				4495BA5818776CA600D306A2 /* Sources */,
+				4495BA5918776CA600D306A2 /* Frameworks */,
+				4495BA5A18776CA600D306A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4495BA6318776CA600D306A2 /* PBXTargetDependency */,
+			);
+			name = ErenTests;
+			productName = ErenTests;
+			productReference = 4495BA5C18776CA600D306A2 /* ErenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4495BA3418776CA600D306A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hery Ratsimihah";
+				TargetAttributes = {
+					4495BA5B18776CA600D306A2 = {
+						TestTargetID = 4495BA3B18776CA600D306A2;
+					};
+				};
+			};
+			buildConfigurationList = 4495BA3718776CA600D306A2 /* Build configuration list for PBXProject "Eren" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4495BA3318776CA600D306A2;
+			productRefGroup = 4495BA3D18776CA600D306A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4495BA3B18776CA600D306A2 /* Eren */,
+				4495BA5B18776CA600D306A2 /* ErenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4495BA3A18776CA600D306A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA4C18776CA600D306A2 /* InfoPlist.strings in Resources */,
+				4495BA5718776CA600D306A2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4495BA5A18776CA600D306A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA6918776CA600D306A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4495BA3818776CA600D306A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA5218776CA600D306A2 /* AppDelegate.m in Sources */,
+				4495BA5518776CA600D306A2 /* Eren.xcdatamodeld in Sources */,
+				4495BA4E18776CA600D306A2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4495BA5818776CA600D306A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4495BA6B18776CA600D306A2 /* ErenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4495BA6318776CA600D306A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4495BA3B18776CA600D306A2 /* Eren */;
+			targetProxy = 4495BA6218776CA600D306A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4495BA4A18776CA600D306A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4495BA4B18776CA600D306A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4495BA6718776CA600D306A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4495BA6818776CA600D306A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4495BA6C18776CA600D306A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4495BA6D18776CA600D306A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4495BA6F18776CA600D306A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eren/Eren-Prefix.pch";
+				INFOPLIST_FILE = "Eren/Eren-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4495BA7018776CA600D306A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eren/Eren-Prefix.pch";
+				INFOPLIST_FILE = "Eren/Eren-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4495BA7218776CA600D306A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eren.app/Eren";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eren/Eren-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ErenTests/ErenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4495BA7318776CA600D306A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Eren.app/Eren";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Eren/Eren-Prefix.pch";
+				INFOPLIST_FILE = "ErenTests/ErenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4495BA3718776CA600D306A2 /* Build configuration list for PBXProject "Eren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4495BA6C18776CA600D306A2 /* Debug */,
+				4495BA6D18776CA600D306A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4495BA6E18776CA600D306A2 /* Build configuration list for PBXNativeTarget "Eren" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4495BA6F18776CA600D306A2 /* Debug */,
+				4495BA7018776CA600D306A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4495BA7118776CA600D306A2 /* Build configuration list for PBXNativeTarget "ErenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4495BA7218776CA600D306A2 /* Debug */,
+				4495BA7318776CA600D306A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4495BA5318776CA600D306A2 /* Eren.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4495BA5418776CA600D306A2 /* Eren.xcdatamodel */,
+			);
+			currentVersion = 4495BA5418776CA600D306A2 /* Eren.xcdatamodel */;
+			path = Eren.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4495BA3418776CA600D306A2 /* Project object */;
+}
